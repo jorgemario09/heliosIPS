@@ -16,6 +16,9 @@ class DimensionarResponse(BaseModel):
     cobertura_porcentaje: float
     kwp_requerido: float
     cantidad_paneles_550w: int
+    inversores_50kw_estimados: int
+    tipo_sistema: str = "On-Grid (Sin Baterías)"
+    descripcion_bos: str = "Cableado DC/AC + Estructuras + Protecciones"
     area_requerida_m2: float
     ahorro_mensual_cop: float
     ahorro_anual_cop: float
